@@ -6,7 +6,7 @@ connect="connect"
 newConnection="new connection"
 disconnect="disconnect"
 
-options="$connect\n$new connection\n$disconnect"
+options="$connect\n$newConnection\n$disconnect"
 
 mode="$(echo -e "$options" | rofi -i -p 'bluetooth manager' -dmenu)"
 case $mode in
