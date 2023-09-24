@@ -5,7 +5,7 @@
 # API settings ________________________________________________________________
 
 APIKEY=`cat $HOME/.owm-key`
-# if you leave these empty location will be picked based on your ip-adres
+# if you leave these empty location will be picked based on your ip-address
 CITY_NAME='Guangzhou'
 COUNTRY_CODE='CN'
 # Desired output language
